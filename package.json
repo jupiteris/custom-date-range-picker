@@ -1,6 +1,6 @@
 {
-  "title": "StaticDateRangePickerDemo Material Demo",
-  "name": "staticdaterangepickerdemo-material-demo",
+  "title": "date range demo",
+  "name": "date range demo",
   "devDependencies": {
     "react-scripts": "latest"
   },

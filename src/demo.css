@@ -149,12 +149,12 @@
     box-shadow: inset 0px 0px 0px 1px #18bc9c;
     width: 200px;
     border-radius: 5px;
+    font-size: 14px;
 }
 
 .input-box svg {
-    color: #26C0A2 !important
+    color: rgb(54 208 178) !important
 }
-
 
 body{
     display: flex;

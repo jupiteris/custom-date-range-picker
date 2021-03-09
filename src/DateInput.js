@@ -46,7 +46,7 @@ const DateInput = ({ start, end, expanded }) => {
     //   <IconButton className={classes.icon}>{expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}</IconButton>
     // </Paper>
     <div className="input-box" style={{ boxShadow: start && end && !expanded && "inset 0px 0px 0px 2px #18bc9c" }}>
-      <span style={{ color: highlight && "#26C0A2", fontWeight: highlight && "bold" }}>{date}</span>
+      <span style={{ color: highlight && "rgb(54 208 178)", fontWeight: highlight && "bold" }}>{date}</span>
       {expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
     </div>
   );
