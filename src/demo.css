@@ -3,6 +3,10 @@
     top: 65px !important;
 }
 
+.MuiDateRangePickerDay-day{
+    font-size: 13px !important;
+}
+
 .MuiPickersDay-root.Mui-selected {
     background-color: #18BC9C !important;
     border-radius: 4px !important;
@@ -44,8 +48,13 @@
     color: #BABDB7 !important;
 }
 
+.MuiDateRangePickerViewDesktop-arrowSwitcher .MuiTypography-subtitle1{
+    font-weight: bold;
+}
+
 /* replace the default week day with 3-text week day */
 .MuiPickersCalendar-weekDayLabel { 
+    font-size: 13px;
     visibility: hidden !important;
     position: relative !important;
 }
@@ -150,6 +159,7 @@
     width: 200px;
     border-radius: 5px;
     font-size: 14px;
+    box-sizing: border-box;
 }
 
 .input-box svg {

@@ -36,7 +36,9 @@ const DateInput = ({ start, end, expanded }) => {
     date = "Select date";
   }
   // this variable is used for date-text to be bold or not
-  const highlight = (start && end && !expanded) || (!start && !end && !expanded);
+  const txt_emphasis = (start && end && !expanded) || (!start && !end && !expanded);
+  // this variable is used for border to be bold or not
+  const border_emphasis = start && end && !expanded;
   return (
     // <Paper
     //   className={classes.paper}
@@ -45,8 +47,8 @@ const DateInput = ({ start, end, expanded }) => {
     //   <InputBase sx={{ ml: 1, flex: 1, color: highlight && "#26C0A2", fontWeight: highlight && "bold" }} value={date} />
     //   <IconButton className={classes.icon}>{expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}</IconButton>
     // </Paper>
-    <div className="input-box" style={{ boxShadow: start && end && !expanded && "inset 0px 0px 0px 2px #18bc9c" }}>
-      <span style={{ color: highlight && "rgb(54 208 178)", fontWeight: highlight && "bold" }}>{date}</span>
+    <div className="input-box" style={{ boxShadow: border_emphasis && "inset 0px 0px 0px 2px #18bc9c" }}>
+      <span style={{ color: txt_emphasis && "rgb(54 208 178)", fontWeight: txt_emphasis && "bold" }}>{date}</span>
       {expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
     </div>
   );

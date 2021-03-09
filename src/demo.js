@@ -58,6 +58,7 @@ export default function StaticDateRangePickerDemo() {
             value={value}
             onChange={handleChange}
             shouldDisableDate={(e) => {
+              // disable the last dates
               if (new Date(e).getTime() <= new Date().getTime() - 3600 * 24 * 1000) return true;
               else return false;
             }}
