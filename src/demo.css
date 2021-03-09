@@ -1,0 +1,162 @@
+/* date range customization */
+#simple-popover .MuiPaper-root {
+    top: 65px !important;
+}
+
+.MuiPickersDay-root.Mui-selected {
+    background-color: #18BC9C !important;
+    border-radius: 4px !important;
+}
+
+.MuiDateRangePickerDay-rangeIntervalDayHighlight{
+    background-color: #E4F4F1 !important;
+}
+
+.MuiDateRangePickerDay-dayInsideRangeInterval{
+    color: black !important;
+}
+
+.MuiDateRangePickerDay-dayOutsideRangeInterval:hover, .MuiPickersDay-today:not(.Mui-selected){
+    border-radius: 4px !important;
+    border: unset !important;
+    background-color: #E4F4F1 !important;
+}
+
+.MuiDateRangePickerDay-rangeIntervalDayHighlight:last-child, .MuiDateRangePickerDay-rangeIntervalDayHighlightEnd{
+    border-radius: 0px 4px 4px !important;
+}
+
+.MuiDateRangePickerDay-rangeIntervalDayHighlight:first-child, .MuiDateRangePickerDay-rangeIntervalDayHighlightStart{
+    border-radius: 4px 0px 0px 4px !important;
+}
+
+.MuiDateRangePickerViewDesktop-rangeCalendarContainer:not(:last-child){
+    border-right: unset !important;
+}
+
+.MuiIconButton-label svg {
+    border: 1px solid #D8D8D4;
+    color: #9AA09E;
+    border-radius: 4px;
+}
+
+.MuiPickersDay-root.Mui-disabled{
+    color: #BABDB7 !important;
+}
+
+/* replace the default week day with 3-text week day */
+.MuiPickersCalendar-weekDayLabel { 
+    visibility: hidden !important;
+    position: relative !important;
+}
+
+.MuiPickersCalendar-weekDayLabel:nth-child(1):after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Sun";
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MuiPickersCalendar-weekDayLabel:nth-child(2):after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Mon";
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MuiPickersCalendar-weekDayLabel:nth-child(3):after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Tue";
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MuiPickersCalendar-weekDayLabel:nth-child(4):after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Wed";
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MuiPickersCalendar-weekDayLabel:nth-child(5):after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Thu";
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MuiPickersCalendar-weekDayLabel:nth-child(6):after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Fri";
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MuiPickersCalendar-weekDayLabel:nth-child(7):after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Sat";
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* popper padding */
+.MuiPopover-paper{
+    padding: 20px 30px !important;
+}
+
+/* date input box */
+.input-box{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: inset 0px 0px 0px 1px #18bc9c;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.input-box svg {
+    color: #26C0A2 !important
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+}

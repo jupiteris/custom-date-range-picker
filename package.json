@@ -1,0 +1,38 @@
+{
+  "title": "StaticDateRangePickerDemo Material Demo",
+  "name": "staticdaterangepickerdemo-material-demo",
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "description": "https://github.com/mui-org/material-ui/blob/v5.0.0-alpha.27/docs/src/pages/components/date-range-picker/StaticDateRangePickerDemo.js",
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@material-ui/core": "next",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "next",
+    "date-fns": "latest",
+    "moment": "^2.29.1",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "version": "0.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
