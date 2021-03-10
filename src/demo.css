@@ -4,12 +4,13 @@
 }
 
 .MuiDateRangePickerDay-day{
-    font-size: 13px !important;
+    font-size: 14px !important;
 }
 
 .MuiPickersDay-root.Mui-selected {
     background-color: #18BC9C !important;
     border-radius: 4px !important;
+    border: 2px solid #FFFFFF !important;
 }
 
 .MuiDateRangePickerDay-rangeIntervalDayHighlight{
@@ -39,8 +40,10 @@
 }
 
 .MuiIconButton-label svg {
+    background: #FFFFFF;
     border: 1px solid #D8D8D4;
-    color: #9AA09E;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px rgba(218, 227, 225, 0.1), inset 0px -1px 1px rgba(218, 227, 225, 0.15);
     border-radius: 4px;
 }
 
@@ -50,11 +53,12 @@
 
 .MuiDateRangePickerViewDesktop-arrowSwitcher .MuiTypography-subtitle1{
     font-weight: bold;
+    color: #393F3E;
 }
 
 /* replace the default week day with 3-text week day */
 .MuiPickersCalendar-weekDayLabel { 
-    font-size: 13px;
+    font-size: 12px;
     visibility: hidden !important;
     position: relative !important;
 }
@@ -146,7 +150,15 @@
 }
 /* popper padding */
 .MuiPopover-paper{
-    padding: 20px 30px !important;
+    width: 688px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAE7;
+    box-sizing: border-box;
+    box-shadow: 0px 12px 24px rgba(97, 97, 78, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* date input box */
@@ -155,12 +167,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: inset 0px 0px 0px 1px #18bc9c;
-    width: 200px;
-    border-radius: 5px;
-    font-size: 14px;
+    width: 156px;
+    font-size: 12px;
     box-sizing: border-box;
     cursor: pointer;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #18BC9C;
+    box-shadow: 0px 2px 2px rgba(218, 227, 225, 0.1), inset 0px -1px 1px rgba(218, 227, 225, 0.15);
+    border-radius: 4px;
+}
+
+.input-box span {
+    color: #393F3E;
 }
 
 .input-box svg {
